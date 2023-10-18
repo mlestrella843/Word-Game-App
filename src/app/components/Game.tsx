@@ -48,8 +48,6 @@ export default function Game() {
     <div className="w-full max-w-2xl px-4 md:px-24 mt-20">
       {/* When the puzzle is coming in from an API we will need to wait for it to load before rendering */}
       {puzzle && <Grid puzzle={puzzle} step={step} guess={guess} fadeIn={fadeIn} setFadeIn={setFadeIn} />}
-
-      <h2>Testing upload to Github</h2>
     
     </div>
   );
